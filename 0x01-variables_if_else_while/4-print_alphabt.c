@@ -1,24 +1,23 @@
 #include <stdio.h>
 /**
- * main - Entry point
- * Return: always 0 (succes)
+ * Main - Only Entry
+ * Description Printing alphabet in lower case
+ * Return: always 0 (success)
  */
 int main(void)
 {
 	int i = 97;
 
-	while (i <= 122)
+	for (int x = i ; x <= i+25 ; x++)
 	{
-		if (i == 101 || i == 113)
+		if (x == 101 || x == 113)
+		{
 			continue;
-			i++;
-		putchar(i);
-		i++;
+			x++;
+		}
+		putchar(x);
+		x++;
 	}
 	putchar('\n');
 	return (0);
-
-
-
-
 }
