@@ -1,10 +1,7 @@
 #include <stdio.h>
 /**
- * Main -Entry Point
- *
- * Description 'It Dosent Work'
- *
- * Return: always 0
+ *main - entry point
+ *Return: 10 first Digits
  */
 int main(void)
 {
@@ -17,8 +14,8 @@ int main(void)
 		{
 			continue;
 		}
-		putchar(44);
-		putchar(32);
+		putchar(',');
+		putchar(' ');
 	}
 	return (0);
 }
