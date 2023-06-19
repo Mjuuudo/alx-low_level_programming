@@ -1,8 +1,7 @@
 #include <stdio.h>
 /**
- * Main - Entry Point
- * Description: 'Reverse The Output of alphabet'
- * Return: always 0
+ *main - entry point
+ *Return: 10 first Digits
  */
 int main(void)
 {

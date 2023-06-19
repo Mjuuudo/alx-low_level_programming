@@ -1,10 +1,7 @@
 #include <stdio.h>
 /**
- * Main - Entry Point
- *
- * Description ' Double Boucle '
- *
- * Return: 0 (success)
+ *main - entry point
+ *Return: 10 first Digits
  */
 int main(void)
 {

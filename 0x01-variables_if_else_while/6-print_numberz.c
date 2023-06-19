@@ -1,8 +1,7 @@
 #include <stdio.h>
 /**
- * Main - Entry Point
- * Description: 'Printing the 10 first digits using putchar'
- * Return: always 0
+ *main - entry point
+ *Return: 10 first Digits
  */
 int main(void)
 {
