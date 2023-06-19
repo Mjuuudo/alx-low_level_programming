@@ -1,8 +1,7 @@
 #include <stdio.h>
 /**
- * Main - Only Entry
- * Description Printing alphabet in lower case
- * Return: always 0 (success)
+ *main - entry point
+ *Return: 10 first Digits
  */
 int main(void)
 {
