@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- *main - entry point
- *Return: 10 first Digits
+ * main - entry point
+ * Return: always 0 (success)
  */
 int main(void)
 {
