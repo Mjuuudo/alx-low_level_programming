@@ -1,14 +1,13 @@
 #include "main.h"
 /**
- * main - entry point
- * Description: 'function that prints alphabets in lower case'
- * Return: always 0(success)
+ *print_alphabet - print alphabet in lower case
+ *Return: 10 first Digits
  */
-int print_alphabet(void)
+void print_alphabet(void)
 {
 	int i;
 
-	for ( i = 97 ; i <= 122 ; i++)
+	for (i = 97 ; i <= 122 ; i++)
 	{
 		_putchar(i);
 	}
