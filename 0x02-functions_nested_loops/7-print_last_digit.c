@@ -9,18 +9,17 @@
 int print_last_digit(int i)
 {
 	int l;
-	int conv;
+	
 
 	l = i % 10;
 	if (l < 0)
 	{
-		conv = l * (-1);
-		_putchar(conv);
-		return (conv);
+		_putchar(-l + 48);
+		return (-l);
 	}
 	else
 	{
-		_putchar(l);
+		_putchar(l + 48);
 		return (l);
 	}
 }
