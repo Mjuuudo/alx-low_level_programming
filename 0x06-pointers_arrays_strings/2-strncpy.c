@@ -1,21 +1,22 @@
 #include "main.h"
 /**
- * _strncpy - Copies at most
- * @dest: buffer sorting
- * @src: the source string
- * @n: max number
- * Return:  pointer
+ * _strncpy - fn entry
+ * @dest: destination
+ * @src: source
+ * @n: bytes
+ * Return: dest
  */
 char *_strncpy(char *dest, char *src, int n)
 {
-	int index = 0, src_len = 0;
+	int i;
 
-	while (src[index])
-		src_len++;
-	for (index = 0 ; src[index] && index < n; index++)
-		dest[index] = src[index];
-	for (index = src_len ; index < n ; index++)
-		dest[index] = '\0';
+	for (i = 0; i < n  &&  src[i] != '\0'; i++)
+		dest[i] = src[i];
 
-	return (0);
+	while (i < n)
+	{
+		dest[i] = '\0';
+		i++;
+	}
+	return (dest);
 }

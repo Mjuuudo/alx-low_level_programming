@@ -1,18 +1,18 @@
 #include "main.h"
 /**
- * _strncat -Concatination
- * @dest: the string uppon
- * @src: the string te be append
- * @n: the number of bytes from src
- * Return: A pointer
+ * _strcat - fn entry
+ * @dest: destination
+ * @src: source pointer
+ * Return: pointer
  */
-char *_strncat(char *dest, char *src, int n)
+char *_strcat(char *dest, char *src)
 {
-	int index = 0, dest_len = 0;
+	int c, c2;
 
-	while (dest[index++])
-		dest_len++;
-	for (index = 0; src[index] && index < n; index++)
-		dest[dest_len++] = src[index];
+	c = 0;
+	while (dest[c])
+		c++;
+	for (c2 = 0 ; src[c2] ; c2++)
+		dest[c++] = src[c2];
 	return (dest);
 }
