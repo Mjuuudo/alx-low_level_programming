@@ -1,8 +1,8 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * *_strdup - fn entry
- * @*str: string
+ * *_strdup - return a apointer to newlyallocated space in memory
+ * @str: string
  * return : 0
  */
 char *_strdup(char *str)
@@ -17,11 +17,12 @@ char *_strdup(char *str)
 	;
 
 
-	
 	n = malloc(len * sizeof(*str) + 1);
 
 	if (n == 0)
+	{
 		return (NULL);
+	}
 	else
 	{
 		for (; i < len ; i++)
